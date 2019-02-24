@@ -144,6 +144,7 @@ static PyObject *py_setup_channel(__attribute__ ((unused)) PyObject *self, PyObj
 		   res = set_pin_mode(channel, "gpio_pu");
 	   else
 		   res = set_pin_mode(channel, "gpio");
+       printf("channel = %s, res = %d", channel, res);
    }
    
    //Check if set_pin_mode() returned no error
