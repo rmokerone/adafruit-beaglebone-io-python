@@ -71,7 +71,8 @@ typedef struct pins_t {
 
 //Table generated based on https://github.com/jadonk/bonescript/blob/master/src/bone.js
 pins_t table[] = {
-  { "GPIO0_3", "GPIO0_3", 3, -1, -1},
+  { "IRQ", "GPIO0_2", 2, -1, -1},
+  { "CE", "GPIO0_3", 3, -1, -1},
   { "USR0", "USR0", 53, -1, -1},
   { "USR1", "USR1", 54, -1, -1},
   { "USR2", "USR2", 55, -1, -1},
